@@ -50,8 +50,11 @@ code {
 }
 
 .tab img{
-  height: 2.5vh;
   padding-right: 3vh;
+  padding-bottom: 1.5vh;
+  width: 15%;
+  height: 15%;
+  vertical-align: middle;
 }
 
 div.tab:hover {
@@ -112,6 +115,13 @@ div.tab:hover {
   position: absolute;
   bottom: 8px;
   right: 16px;
+}
+
+.center {
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 5vh;
 }
 
 /* .searchButton {
