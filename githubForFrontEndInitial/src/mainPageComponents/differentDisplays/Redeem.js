@@ -25,12 +25,12 @@ export default function Redeem(input){
         let redeemCode = document.getElementById("redeemCode").value
         console.log(redeemCode)
         // let success = await(postCredentials(redeemCode).value)
-        // let success = setTimeout(()=>postCredentials(redeemCode).value, 1000)
-        let success = await(postCredentials(redeemCode).value)
+        let success = setTimeout(()=>postCredentials(redeemCode).value, 1000)
+        // let success = await(postCredentials(redeemCode).value)
         console.log("Success: ")
         console.log(success)
         if(success){
-            alert("Successfully redeemed")
+            alert("Successfully redeemed, re-sign in to see your chester coins!")
         }
         else{
             alert("Invalid redeem code, make sure everything was typed out correctly")
