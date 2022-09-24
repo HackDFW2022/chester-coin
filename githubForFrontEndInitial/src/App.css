@@ -76,6 +76,7 @@ div.tab:hover {
   margin-right: auto;
   margin-left: auto;
   color: white;
+  text-align: center;
 }
 
 .contentText {
@@ -121,7 +122,17 @@ div.tab:hover {
   display: table;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 5vh;
+  margin-top: 5vh;
+}
+
+.prizeTable th, td{
+  color: white;
+  font-family: Jost;
+  text-align: left;
+  font-size: 3vh;
+  border: 1px solid white;
+  padding-left: 0.5vw;
+  padding-right: 1vw;
 }
 
 /* .searchButton {
