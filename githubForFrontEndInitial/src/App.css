@@ -15,7 +15,7 @@ code {
 .bar{
   width: 100vw;
   height: 10vh;
-  background-color:crimson;
+  background-color:#FF9E36;
   color: white;
   font-size: 8vmin;
   font-display:inherit;
@@ -35,8 +35,8 @@ code {
 .sideBar{
   height: 90vh;
   width: 15vw;
-  background-color: cadetblue;
-  color: aliceblue;
+  background-color: white;
+  color: black;
   font-size: 2vw;
   padding-left: 0.1vw;
   float: left;
