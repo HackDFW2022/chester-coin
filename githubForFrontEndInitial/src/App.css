@@ -19,12 +19,14 @@ code {
   font-size: 8vmin;
   font-display:inherit;
   float: right;
+  top: 0px;
 }
 
 .barImage{
-  padding-left: 1vw;
-  height: 10vh;
+  padding-left: 2vw;
+  height: 20vh;
   float: left;
+  position: absolute;
 }
 
 .barText{
@@ -32,6 +34,7 @@ code {
 }
 
 .sideBar{
+  padding-top: 12vh;
   height: 90vh;
   width: 15vw;
   background-color: white;
@@ -106,6 +109,7 @@ div.tab:hover {
   bottom: 8px;
   right: 16px;
 }
+
 
 /* .searchButton {
   height: 2vw;
