@@ -1,16 +1,20 @@
 import React from "react";
+import Chester from "./chesterShrug.png"
+
 export default function Home(input){
     
     return(
         <div>
             <div className="titleText">
-                Welcome {input.userinfo.name}, select the tab to the left if you would like to Redeem your Chester Coins, or Trade it.
+                <b>Welcome, {input.userinfo.name}</b>
             </div>
             <div className="titleText">
-                Current Balance:{input.userinfo.cryptoamount}
+                Current Balance: {input.userinfo.cryptoamount} Chester Coins 
+                <img src="logo.png" height={30} alt="logo" className="coin"/>
             </div>
-            
-
+            <div className="mascot">
+                <img src={Chester} />
+            </div>
         </div>
     )
 }
