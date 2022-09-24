@@ -1,5 +1,6 @@
 import React from "react";
 import axios from 'axios';
+import logo from "./logo.png";
 
 let api = axios.create({
     baseURL: "http://localhost:5000/redeem",
@@ -38,7 +39,11 @@ export default function Redeem(input){
     return(
         <div>
             <div className="titleText">
-                Type In your Redeem Code, then hit redeem:
+                <b>Redeem your Chester Coins!</b>
+            </div>
+            <div className="titleText">
+                Current Balance: {input.userinfo.cryptoamount} Chester Coins 
+                <img src={logo} height={30} alt="logo" className="coin"/>
             </div>
             <input type="username" id="redeemCode" maxLength="32" autoComplete="off" />
             <button onClick={() => validateCode()}>Click to send Code</button>

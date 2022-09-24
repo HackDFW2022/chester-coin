@@ -23,7 +23,7 @@ code {
 }
 
 .barImage{
-  padding-left: 1vw;
+  padding-left: 2vw;
   height: 20vh;
   float: left;
   position: absolute;
@@ -61,15 +61,18 @@ div.tab:hover {
 .mainDisplay {
   height: 100vh;
   width: 100vw;
-  background-color: lightgray;
+  background-color: lightgrey;
+  background-image: url(./images/cheetoBG.png);
+  background-size: cover;
 }
 
 .titleText {
   text-indent: 1vw;
-  font-size: 6vh;
+  font-size: 7vh;
   display: table;
   margin-right: auto;
   margin-left: auto;
+  color: white;
 }
 
 .contentText {
@@ -110,7 +113,6 @@ div.tab:hover {
   bottom: 8px;
   right: 16px;
 }
-
 
 /* .searchButton {
   height: 2vw;
