@@ -7,7 +7,7 @@ export default function MyEvents(input){
 
     function getEvents(eventArray){
         if(!eventArray)
-            return "No Events Found"
+            return "gotta make this a form to communicate to back end"
         else {
             return (<table><tr> <th>Event Names</th> <th>Date</th> </tr> {printEvents(eventArray)}</table>)
         }
@@ -16,7 +16,7 @@ export default function MyEvents(input){
     return(
         <div>
             <div className="titleText">
-                Upcoming Events:
+                Make a trade:
                 <div className="contentText">
                     {getEvents(input.userinfo.events)}
                 </div>

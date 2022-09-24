@@ -3,6 +3,7 @@ import mongoose from 'mongoose'
 import cors from 'cors'
 import loginRoutes from './routes/login.js'
 import SignInRoutes from './routes/SignIn.js'
+import redeemRoutes from './routes/redeem.js'
 
 const app = express();
 
@@ -20,6 +21,7 @@ app.all("/", function(req, res, next) {
 // routes under here for CORS
 app.use('/login', loginRoutes)
 app.use('/validateSignIn', SignInRoutes)
+app.use('/redeem', redeemRoutes)
 
 const CONNECTION_URL = "mongodb+srv://chester:briliantidea123@cluster0.dpwfs5r.mongodb.net/?retryWrites=true&w=majority"
 
