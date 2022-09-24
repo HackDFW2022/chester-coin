@@ -9,11 +9,11 @@ const router = express.Router();
 
 export const postredeem = asyncHandler(async (req, res) => { 
     console.log(req.body.redeemCode)
-    if(await blockchain.find(req.body.redeemCode).exec())
+    if(await blockchain.findOneAndDelete({ "code" : req.body.redeemCode}).exec())
     {
-        blockchain.deleteOne({'code': req.body.redeemCode}).exec()
+        // blockchain.deleteOne({"code": req.body.redeemCode}).exec()
         loginMessage.findOneAndUpdate({"cryptoaccount": req.body.username}, {$inc : {'cryptoamount' : 1}}, {new:true}).exec()
-            res.send(true)
+        res.send(true)
     }
     else{res.send(false)}
 })

@@ -4,6 +4,7 @@ import cors from 'cors'
 import loginRoutes from './routes/login.js'
 import SignInRoutes from './routes/SignIn.js'
 import redeemRoutes from './routes/redeem.js'
+import tradeRoutes from './routes/trade.js'
 
 const app = express();
 
@@ -22,6 +23,7 @@ app.all("/", function(req, res, next) {
 app.use('/login', loginRoutes)
 app.use('/validateSignIn', SignInRoutes)
 app.use('/redeem', redeemRoutes)
+app.use('/trade', tradeRoutes)
 
 const CONNECTION_URL = "mongodb+srv://chester:briliantidea123@cluster0.dpwfs5r.mongodb.net/?retryWrites=true&w=majority"
 
