@@ -23,7 +23,7 @@ code {
 }
 
 .barImage{
-  padding-left: 2vw;
+  padding-left: 1vw;
   height: 20vh;
   float: left;
   position: absolute;
@@ -85,6 +85,7 @@ div.tab:hover {
 }
 
 .signInPage {
+  padding-top: 25vh;
   margin-left: 1vw;
 }
 

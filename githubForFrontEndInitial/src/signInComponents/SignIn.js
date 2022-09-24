@@ -34,7 +34,7 @@ export default function TopBar(input){
     }
     return(
         <div className="signInPage">
-            <div>Enter UserName: </div>
+            <div>Enter Username: </div>
             <input type="username" id="username" maxLength="32" autoComplete="off">                
             </input>
             <div>Enter Password: </div>

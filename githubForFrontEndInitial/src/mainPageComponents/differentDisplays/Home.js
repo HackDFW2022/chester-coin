@@ -1,5 +1,6 @@
 import React from "react";
 import Chester from "./chesterShrug.png"
+import logo from "./logo.png"
 
 export default function Home(input){
     
@@ -10,7 +11,7 @@ export default function Home(input){
             </div>
             <div className="titleText">
                 Current Balance: {input.userinfo.cryptoamount} Chester Coins 
-                <img src="logo.png" height={30} alt="logo" className="coin"/>
+                <img src={logo} height={30} alt="logo" className="coin"/>
             </div>
             <div className="mascot">
                 <img src={Chester} />
