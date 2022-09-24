@@ -85,9 +85,11 @@ div.tab:hover {
 }
 
 .signIn {
-  background-color: lightgray;
   height: 100vh;
   width: 100vw;
+  background-color: lightgrey;
+  background-image: url(./images/cheetoBG.png);
+  background-size: cover;
   font-size: 1.5vw;
 }
 
