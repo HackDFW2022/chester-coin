@@ -37,16 +37,16 @@ export default function TopBar(input){
     }
     return(
         <div>
-            <div className="center titleText"><b>Chester Portal</b></div>
+            <div className="center titleText"><b><u>Chester Portal</u></b></div>
             <div className="signInPage float-parent center">
                 <div className="float-child centerText">
-                    <b><u>Chester Rewards</u></b>
+                    <b>Chester Rewards</b>
                     <br />
                     To become a Chester rewards member and start collecting Chester Coins, create or login to your 
-                    chestercoins.com account! You'll earn coins every time you make a Cheetos purchase - your 
+                    account! You'll earn coins every time you make a Cheetos purchase - your 
                     coins can be saved up or redeemed for Chester approved prizes!
                 </div>
-                <div className="float-child signInArea">
+                <div className="float-child centerText">
                     <div>Enter Username:</div>
                     <input type="username" id="username" maxLength="32" autoComplete="off" />
                     <div>Enter Password: </div>
@@ -56,6 +56,9 @@ export default function TopBar(input){
                     <br />
                     <button> <img src={signUp}/></button>
                 </div>
+            </div>
+            <div>
+                <img src={steps} className="center picture"/>
             </div>
         </div>
     )
