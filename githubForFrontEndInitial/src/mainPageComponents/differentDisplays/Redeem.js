@@ -40,8 +40,8 @@ export default function Redeem(input){
                 <img src={logo} height={30} alt="logo" className="coin"/>
             </div>
             <div className="center">
-                <input type="username" id="redeemCode" maxLength="32" autoComplete="off" />
-                <button type="submit" onClick={() => validateCode()}><b>Redeem!</b></button>
+                <input type="code" id="redeemCode" maxLength="32" autoComplete="off" />
+                <button onClick={() => validateCode()}><b>Redeem!</b></button>
             </div>
             <div className="center">
                 <img src={cheetoBag}/>

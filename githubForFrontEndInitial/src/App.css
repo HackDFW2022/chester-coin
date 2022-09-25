@@ -79,7 +79,7 @@ div.tab:hover {
   text-align: center;
 }
 
-input[type=username], select {
+input[type=code], select {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
