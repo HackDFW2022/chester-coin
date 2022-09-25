@@ -72,7 +72,6 @@ div.tab:hover {
 .titleText {
   text-indent: 1vw;
   font-size: 7vh;
-  display: table;
   margin-right: auto;
   margin-left: auto;
   color: white;
@@ -98,17 +97,6 @@ div.tab:hover {
   margin-left: 1vw;
 }
 
-.searchBox {
-  height: 2vw;
-  width: 12vw;
-  font-size: 1vw;
-  background-color: lightsteelblue;
-  margin-left: 1vw;
-}
-
-.searchField{
-  display: flex;
-}
 
 .coin {
   padding-left: 1vh;
@@ -128,23 +116,13 @@ div.tab:hover {
 }
 
 .prizeTable th, td{
-  color: white;
+  color: black;
   font-family: Jost;
-  text-align: left;
+  border: 1px solid black;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  text-align: center;
   font-size: 3vh;
-  border: 1px solid white;
-  padding-left: 0.5vw;
-  padding-right: 1vw;
+  background-color:  white;
 }
 
-/* .searchButton {
-  height: 2vw;
-  width: 2vw;
-  margin-left: 0.1vw;
-  background-image: url("images/searchIcon.png");
-  background-size: 1vw;
-  background-repeat: no-repeat;
-  background-position: center;
-  color: white;
-  display: flex;
-} */
