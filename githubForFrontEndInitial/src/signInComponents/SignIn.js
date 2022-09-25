@@ -1,8 +1,6 @@
 import React from "react";
 import axios from 'axios';
 import steps from "../images/homePageSteps.png";
-import signIn from "../images/signInBox.png";
-import signUp from "../images/signUpBox.png";
 
 let api = axios.create({
   baseURL: "http://localhost:5000/validateSignIn",

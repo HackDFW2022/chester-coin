@@ -44,7 +44,7 @@ export default function Redeem(input){
                 <button onClick={() => validateCode()}><b>Redeem!</b></button>
             </div>
             <div className="center">
-                <img src={cheetoBag}/>
+                <button onClick={() => validateCode()}><b>Redeem!</b></button>
             </div>
             
         </div>
