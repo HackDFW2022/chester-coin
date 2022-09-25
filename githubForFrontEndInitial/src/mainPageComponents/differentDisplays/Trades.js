@@ -1,5 +1,8 @@
 import React from "react";
-import logo from "./logo.png"
+import logo from "./logo.png";
+import ipadMini from "./ipadMini.png";
+import laptop from "./laptop.png";
+import tv from "./tv.jpg";
 
 export default function MyTrades(input){
     return(
@@ -22,21 +25,21 @@ export default function MyTrades(input){
                         <th> Buy? </th>
                     </tr>
                     <tr>
-                        <td>picture</td>
+                        <td><img src={ipadMini} className="prizeImages" /></td>
                         <td>iPad Mini</td>
                         <td>500</td>
                         <td> <button> Buy </button> </td>
                     </tr>
                     <tr>
-                        <td>picture</td>
-                        <td>Gaming Laptop</td>
-                        <td>1000</td>
+                        <td><img src={laptop} className="prizeImages" /></td>
+                        <td>Acer Gaming Laptop</td>
+                        <td>1500</td>
                         <td> <button> Buy </button> </td>
                     </tr>
                     <tr>
-                        <td>picture</td>
-                        <td>TV</td>
-                        <td>5000</td>
+                        <td><img src={tv} className="prizeImages" /></td>
+                        <td>60" 4K UHD TV</td>
+                        <td>3000</td>
                         <td> <button> Buy </button> </td>
                     </tr>
                 </table> 

@@ -119,11 +119,12 @@ div.tab:hover {
   color: black;
   font-family: Jost;
   border: 1px solid black;
-  padding-left: 5vw;
-  padding-right: 5vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
   text-align: center;
   font-size: 3vh;
   background-color:  white;
+  max-width: 200px;
 }
 
 .float-parent { 
@@ -143,4 +144,9 @@ div.tab:hover {
 .picture {
   width: 40%;
   height: 40%;
+}
+
+.prizeImages {
+  width: 50%;
+  height: 50%;
 }
