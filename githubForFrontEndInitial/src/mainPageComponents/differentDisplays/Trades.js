@@ -5,7 +5,7 @@ export default function MyTrades(input){
     return(
         <div>
             <div className="titleText">
-                <u> <b>Trade for Some CHEDDER</b> </u>
+                <u> <b>Trade for Some CHEDDAR</b> </u>
                 <div className="contentText">
                 </div>
             </div>

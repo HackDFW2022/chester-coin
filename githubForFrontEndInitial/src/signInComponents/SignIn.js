@@ -40,7 +40,7 @@ export default function TopBar(input){
             <div className="center titleText"><b>Chester Portal</b></div>
             <div className="signInPage float-parent center">
                 <div className="float-child centerText">
-                    <b>Chester Rewards</b>
+                    <b><u>Chester Rewards</u></b>
                     <br />
                     To become a Chester rewards member and start collecting Chester Coins, create or login to your 
                     chestercoins.com account! You'll earn coins every time you make a Cheetos purchase - your 

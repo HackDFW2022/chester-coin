@@ -33,7 +33,7 @@ export default function Redeem(input){
     return(
         <div>
             <div className="titleText">
-                <b>Redeem your Chester Coins!</b>
+                <b><u>Redeem your Chester Coins!</u></b>
             </div>
             <div className="titleText">
                 Current Balance: {input.userinfo.cryptoamount} Chester Coins 
