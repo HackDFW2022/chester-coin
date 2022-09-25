@@ -1,11 +1,4 @@
 import React from "react";
-<<<<<<< HEAD
-import logo from "./logo.png";
-import ipadMini from "./ipadMini.png";
-import laptop from "./laptop.png";
-import tv from "./tv.jpg";
-
-=======
 import logo from "./logo.png"
 import axios from 'axios';
 let api = axios.create({
@@ -22,7 +15,6 @@ export const posttrade = asyncHandler(async (req, res) => {
     loginMessage.findOneAndUpdate({"cryptoaccount": req.body.username}, {$inc : {'cryptoamount' : req.body.cost}}, {new:true}).exec()
 })
 */
->>>>>>> 36181d1 (adding some functionality)
 export default function MyTrades(input){
     async function buyItem(number){
         console.log(number)
@@ -41,7 +33,7 @@ export default function MyTrades(input){
     return(
         <div>
             <div className="titleText">
-                <u> <b>Trade for Some CHEDDAR</b> </u>
+                <u> <b>Trade for Some CHEDDER</b> </u>
                 <div className="contentText">
                 </div>
             </div>
@@ -58,24 +50,12 @@ export default function MyTrades(input){
                         <th> Buy? </th>
                     </tr>
                     <tr>
-                        <td><img src={ipadMini} className="prizeImages" /></td>
+                        <td>picture</td>
                         <td>iPad Mini</td>
                         <td>500</td>
                         <td> <button onClick={() => buyItem(500)}><b> Buy </b></button> </td>
                     </tr> 
                     <tr>
-<<<<<<< HEAD
-                        <td><img src={laptop} className="prizeImages" /></td>
-                        <td>Acer Gaming Laptop</td>
-                        <td>1500</td>
-                        <td> <button> Buy </button> </td>
-                    </tr>
-                    <tr>
-                        <td><img src={tv} className="prizeImages" /></td>
-                        <td>60" 4K UHD TV</td>
-                        <td>3000</td>
-                        <td> <button> Buy </button> </td>
-=======
                         <td>picture</td>
                         <td>Gaming Laptop</td>
                         <td>1000</td>
@@ -86,7 +66,6 @@ export default function MyTrades(input){
                         <td>TV</td>
                         <td>5000</td>
                         <td> <button onClick={() => buyItem(5000)}><b> Buy </b></button> </td>
->>>>>>> 36181d1 (adding some functionality)
                     </tr>
                 </table> 
             </div>
