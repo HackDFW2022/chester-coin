@@ -52,9 +52,9 @@ export default function TopBar(input){
                     <div>Enter Password: </div>
                     <input type="password" id="password" maxLength="32" autoComplete="off" />                
                     <br />
-                    <button> <img src={signIn} onClick={() => validateSignIn()}/></button>
+                    <button className="submissionButtons" onClick={() => validateSignIn()}>SIGN IN</button>
                     <br />
-                    <button> <img src={signUp}/></button>
+                    <button className="submissionButtons" onClick={() => validateSignIn()}>SIGN UP</button>
                 </div>
             </div>
             <div>

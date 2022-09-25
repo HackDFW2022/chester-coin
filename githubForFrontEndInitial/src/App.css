@@ -160,3 +160,9 @@ input[type=code], select {
   width: 50%;
   height: 50%;
 }
+
+.submissionButtons {
+  padding: 5px 10px 5px 10px;
+  color: white;
+  background-color: #FF9E36;
+}
