@@ -46,7 +46,7 @@ function App() {
         <div>
           <TopBar />
           <SideBar setState = {setState}/>
-          <DisplayTab currState={currState} userInfo={userInfo}/> 
+          <DisplayTab currState={currState} userInfo={userInfo} setUserInfo={setUserInfo}/> 
         </div>
       );}
     else if(isSignedIn)
@@ -55,7 +55,7 @@ function App() {
         <div>
           <TopBar />
           <SideBar setState = {setState}/>
-          <DisplayTab currState={currState} userInfo={userInfo}/> 
+          <DisplayTab currState={currState} userInfo={userInfo} setUserInfo={setUserInfo}/> 
         </div>
       );}
     else{

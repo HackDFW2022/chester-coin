@@ -26,8 +26,7 @@ export default function MyTrades(input){
             alert("Unable to afford item")
         }
         else{
-            input.userinfo.cryptoamount-=number;
-            
+            input.setUserInfo({cryptoamount: input.userinfo.cryptoamount-number});
             alert("Item bought, will be sent to you");
             number *=-1
             await api.post('/', {cost: number, username:input.userinfo.cryptoaccount}, config)

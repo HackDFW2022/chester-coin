@@ -10,11 +10,11 @@ export default function DisplayTab(currTab){
     function show (currState){
         switch(currState){
             case "Home": 
-                return <Home userinfo={currTab.userInfo}/>
+                return <Home userinfo={currTab.userInfo} setUserInfo={currTab.setUserInfo}/>
             case "Redeem": 
-                return <Redeem userinfo={currTab.userInfo}/>
+                return <Redeem userinfo={currTab.userInfo} setUserInfo={currTab.setUserInfo}/>
             case "Trades": 
-                return <Trades userinfo={currTab.userInfo}/>
+                return <Trades userinfo={currTab.userInfo} setUserInfo={currTab.setUserInfo}/>
             default: return "Error in displaying tab"
         }
     }
