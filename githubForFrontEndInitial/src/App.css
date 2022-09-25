@@ -93,8 +93,8 @@ div.tab:hover {
 }
 
 .signInPage {
-  padding-top: 25vh;
   margin-left: 1vw;
+  color: white;
 }
 
 
@@ -126,3 +126,16 @@ div.tab:hover {
   background-color:  white;
 }
 
+.float-parent { 
+  width: 50%; 
+} 
+
+.float-child { 
+  float: left; 
+  width: 50%; 
+  margin-left: auto;
+} 
+
+.picture {
+  padding: 20px;
+}
