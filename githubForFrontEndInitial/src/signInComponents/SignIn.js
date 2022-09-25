@@ -39,7 +39,7 @@ export default function TopBar(input){
         <div>
             <div className="center titleText"><b>Chester Portal</b></div>
             <div className="signInPage float-parent center">
-                <div className="float-child ">
+                <div className="float-child centerText">
                     <b>Chester Rewards</b>
                     <br />
                     To become a Chester rewards member and start collecting Chester Coins, create or login to your 

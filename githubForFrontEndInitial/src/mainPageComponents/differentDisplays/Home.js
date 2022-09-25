@@ -1,5 +1,5 @@
 import React from "react";
-import Chester from "./chesterShrug.png"
+import Chester from "./chesterSpeech.png"
 import logo from "./logo.png"
 
 export default function Home(input){
