@@ -15,6 +15,7 @@ code {
   width: 100vw;
   height: 10vh;
   background-color:#FF9E36;
+  background-image: url(https://www.cheetos.com/sites/cheetos.com/themes/cheetos/img/background-pattern.jpg?1);
   color: white;
   font-size: 8vmin;
   font-display:inherit;
@@ -76,6 +77,15 @@ div.tab:hover {
   margin-left: auto;
   color: white;
   text-align: center;
+}
+
+input[type=username], select {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 .contentText {

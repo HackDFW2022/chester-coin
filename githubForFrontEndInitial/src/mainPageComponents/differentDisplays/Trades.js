@@ -8,7 +8,7 @@ export default function MyTrades(input){
     return(
         <div>
             <div className="titleText">
-                <u> <b>Trade for Some CHEDDAR</b> </u>
+                <b>Trade for some CHEDDAR</b>
                 <div className="contentText">
                 </div>
             </div>

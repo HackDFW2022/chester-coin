@@ -7,7 +7,7 @@ export default function Home(input){
     return(
         <div>
             <div className="titleText">
-                <b><u>Welcome, {input.userinfo.name}</u></b>
+                <b>Welcome, {input.userinfo.name}</b>
             </div>
             <div className="titleText">
                 Current Balance: {input.userinfo.cryptoamount} Chester Coins 

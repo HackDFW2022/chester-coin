@@ -33,7 +33,7 @@ export default function Redeem(input){
     return(
         <div>
             <div className="titleText">
-                <b><u>Redeem your Chester Coins!</u></b>
+                <b>Redeem your Chester Coins!</b>
             </div>
             <div className="titleText">
                 Current Balance: {input.userinfo.cryptoamount} Chester Coins 
@@ -41,7 +41,7 @@ export default function Redeem(input){
             </div>
             <div className="center">
                 <input type="username" id="redeemCode" maxLength="32" autoComplete="off" />
-                <button onClick={() => validateCode()}><b>Redeem!</b></button>
+                <button type="submit" onClick={() => validateCode()}><b>Redeem!</b></button>
             </div>
             <div className="center">
                 <img src={cheetoBag}/>
