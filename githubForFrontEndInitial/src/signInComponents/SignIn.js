@@ -37,7 +37,8 @@ export default function TopBar(input){
     }
     return(
         <div>
-            <div className="signInPage float-parent">
+            <div className="center titleText"><b>Chester Portal</b></div>
+            <div className="signInPage float-parent center">
                 <div className="float-child ">
                     <b>Chester Rewards</b>
                     <br />
