@@ -25,19 +25,19 @@ export default function MyTrades(input){
                         <td>picture</td>
                         <td>iPad Mini</td>
                         <td>500</td>
-                        <td> button</td>
+                        <td> <button> Buy </button> </td>
                     </tr>
                     <tr>
                         <td>picture</td>
                         <td>Gaming Laptop</td>
                         <td>1000</td>
-                        <td> button </td>
+                        <td> <button> Buy </button> </td>
                     </tr>
                     <tr>
                         <td>picture</td>
                         <td>TV</td>
                         <td>5000</td>
-                        <td> button </td>
+                        <td> <button> Buy </button> </td>
                     </tr>
                 </table> 
             </div>
