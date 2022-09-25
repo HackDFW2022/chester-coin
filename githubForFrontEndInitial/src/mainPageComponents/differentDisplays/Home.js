@@ -13,7 +13,7 @@ export default function Home(input){
                 Current Balance: {input.userinfo.cryptoamount} Chester Coins 
                 <img src={logo} height={30} alt="logo" className="coin"/>
             </div>
-            <div className="mascot">
+            <div className="center">
                 <img src={Chester} />
             </div>
         </div>

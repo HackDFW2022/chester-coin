@@ -113,9 +113,12 @@ input[type=code], select {
 }
 
 .mascot {
+  /*
   position: absolute;
   bottom: 8px;
   right: 16px;
+  */
+  align-content: center;
 }
 
 .center {
