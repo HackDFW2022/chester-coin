@@ -52,6 +52,7 @@ export default function TopBar(input){
                     <br />
                     <button className="submissionButtons" onClick={() => validateSignIn()}>SIGN IN</button>
                     <br />
+                    or <br />
                     <button className="submissionButtons" onClick={() => validateSignIn()}>SIGN UP</button>
                 </div>
             </div>
